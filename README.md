@@ -1,4 +1,4 @@
-# City Hospitals and Clinics
+# City Water Quality Index
 
 ## Installation
 
