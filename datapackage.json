@@ -1,0 +1,50 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "water.csv",
+            "profile": "tabular-data-resource",
+            "name": "water",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "total",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "residential",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "communal_enterprises",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "industrial_enterprises",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "other_consumers",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
